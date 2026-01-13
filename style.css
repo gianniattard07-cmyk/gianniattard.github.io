@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
+/* color */
+
 :root {
-    --mcast-navy: #040340; /* */
+    --mcast-navy: #040340; 
     --white: #FFFFFF;
-    --gray-bg: #E5E5E5; /* */
+    --gray-bg: #E5E5E5; 
 }
+
+/* box */
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 .iphone-viewport {
     width: 393px;
     margin: 0 auto;
-    font-family: 'ABeeZee', sans-serif; /* */
+    font-family: 'ABeeZee', sans-serif; 
     background-color: var(--gray-bg);
     color: var(--mcast-navy);
-    line-height: 29px; /* */
-    letter-spacing: 0.09em; /* */
+    line-height: 29px; 
+    letter-spacing: 0.09em; 
     border: 1px solid #ccc;
     overflow-x: hidden;
 }
@@ -24,6 +28,7 @@
 .flex-col { display: flex; flex-direction: column; }
 
 /* HEADER */
+
 .header-dark { background-color: #333; padding: 15px 0; }
 .search-container { padding: 0 15px 15px 15px; }
 .search-pill { width: 100%; padding: 10px; border-radius: 25px; border: none; text-align: center; }
@@ -33,6 +38,7 @@
 .nav-links a { font-size: 10px; text-decoration: none; color: #000; margin-left: 8px; }
 
 /* NAV BOXES */
+
 .main-nav-boxes { padding: 20px; gap: 15px; }
 .blue-nav-box {
     background-color: var(--mcast-navy);
@@ -48,11 +54,13 @@
 .blue-nav-box:hover { background-color: #060563; transform: scale(1.02); }
 
 /* HERO BANNER */
+
 .hero-blue-box { background-color: var(--mcast-navy); padding: 35px 20px; color: var(--white); }
 .hero-title { font-size: 20px; font-weight: bold; }
 .hero-seal { height: 60px; }
 
-/* PILLS */
+/* padding */
+
 .pill-actions { padding: 25px; gap: 15px; }
 .pill-btn {
     background-color: var(--white);
@@ -69,7 +77,8 @@
 
 .full-width-img { width: 100%; display: block; }
 
-/* FOOTER */
+/* header */
+
 .footer-navy { background-color: var(--mcast-navy); color: var(--white); padding: 30px 25px; }
 .white-divider { height: 2px; background-color: var(--white); margin: 15px 0; width: 100%; }
 .footer-header { font-size: 22px; text-align: center; margin: 10px 0; font-weight: bold; }
