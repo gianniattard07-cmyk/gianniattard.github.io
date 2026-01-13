@@ -1,0 +1,60 @@
+/* Page 2 Layout Pattern */
+.institute-list {
+    background-color: #A9A9A9; 
+    padding: 20px 0;
+}
+
+.institute-block {
+    margin-bottom: 30px; 
+}
+
+.institute-block {
+    margin-bottom: 45px; 
+}
+
+.inst-label-blue {
+    background-color: var(--mcast-navy); 
+    color: var(--white); 
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inst-photo img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--mcast-navy);
+    padding: 10px 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+
+
+/* The Blue Title Box */
+.inst-label-blue {
+    background-color: #040340; /* MCAST Navy Blue */
+    color: #FFFFFF; /* White Text */
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.inst-photo img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
