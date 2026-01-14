@@ -27,7 +27,7 @@
 .flex-row { display: flex; justify-content: space-between; align-items: center; }
 .flex-col { display: flex; flex-direction: column; }
 
-/* HEADER */
+
 
 .header-dark { background-color: #333; padding: 15px 0; }
 .search-container { padding: 0 15px 15px 15px; }
@@ -36,10 +36,9 @@
 .logo-img { height: 40px; margin-top: 10px; padding-right: 5px; padding-left: 6px; align-items: center; }
 .mcast-text { font-size: 14px; font-weight: bold; }
 .nav-links a { font-size: 10px; text-decoration: none; color: #000; margin-left: 8px; text-align: center; }
-.hero-seal { height: auto; padding-top: 5px; padding-bottom: 5px; align-items: center; width: 100%; flex-direction: column;
-                display:block ; object-fit: contain;
-            }
-/* NAV BOXES */
+
+
+
 
 .main-nav-boxes { padding: 20px; gap: 15px; }
 .blue-nav-box {
@@ -55,13 +54,14 @@
 }
 .blue-nav-box:hover { background-color: #060563; transform: scale(1.02); }
 
-/* HERO BANNER */
+
 
 .hero-blue-box { background-color: var(--mcast-navy); padding: 35px 20px; color: var(--white); }
 .hero-title { font-size: 20px; font-weight: bold; }
-.hero-seal { height: 60px; }
+.hero-seal { height: auto; padding-top: 5px; padding-bottom: 5px; align-items: center; width: 100%; flex-direction: column;
+                display:block ; object-fit: contain; }
 
-/* padding */
+
 
 .pill-actions { padding: 25px; gap: 15px; }
 .pill-btn {
@@ -79,7 +79,7 @@
 
 .full-width-img { width: 100%; display: block; }
 
-/* header */
+
 
 .footer-navy { background-color: var(--mcast-navy); color: var(--white); padding: 30px 25px; }
 .white-divider { height: 2px; background-color: var(--white); margin: 15px 0; width: 100%; }
