@@ -33,23 +33,25 @@
 .search-container { padding: 0 15px 15px 15px; }
 .search-pill { width: 100%; padding: 10px; border-radius: 25px; border: none; text-align: center; }
 .nav-capsule { background-color: var(--white); border-radius: 40px; margin: 0 10px; padding: 10px 15px; }
-.logo-img { height: 20px; }
+.logo-img { height: 40px; margin-top: 10px; padding-right: 5px; padding-left: 6px; align-items: center; }
 .mcast-text { font-size: 14px; font-weight: bold; }
-.nav-links a { font-size: 10px; text-decoration: none; color: #000; margin-left: 8px; }
-
+.nav-links a { font-size: 10px; text-decoration: none; color: #000; margin-left: 8px; text-align: center; }
+.hero-seal { height: auto; padding-top: 5px; padding-bottom: 5px; align-items: center; width: 100%; flex-direction: column;
+                display:block ; object-fit: contain;
+            }
 /* NAV BOXES */
 
 .main-nav-boxes { padding: 20px; gap: 15px; }
 .blue-nav-box {
     background-color: var(--mcast-navy);
     color: var(--white);
-    padding: 50px 20px;
+    padding: 50px 15px;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 8px;
-    transition: background-color 0.3s ease, transform 0.2s; /* */
+    transition: background-color 0.3s ease, transform 0.2s; 
 }
 .blue-nav-box:hover { background-color: #060563; transform: scale(1.02); }
 
@@ -71,7 +73,7 @@
     color: var(--mcast-navy);
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: opacity 0.3s; /* */
+    transition: opacity 0.3s; 
 }
 .pill-btn:hover { opacity: 0.8; }
 
