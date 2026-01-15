@@ -58,8 +58,14 @@
 
 .hero-blue-box { background-color: var(--mcast-navy); padding: 35px 20px; color: var(--white); }
 .hero-title { font-size: 20px; font-weight: bold; }
-.hero-seal { height: auto; padding-top: 5px; padding-bottom: 5px; align-items: center; width: 100%; flex-direction: column;
-                display:block ; object-fit: contain; }
+.hero-seal { height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    display:block ;
+    object-fit: contain; }
 
 
 
@@ -90,9 +96,7 @@
 .social-capsule img { height: 22px; margin: 0 5px; }
 .loc-item { margin: 10px 0; font-size: 13px; }
 
-/* --- PAGE 3 HEADER REFINEMENTS --- */
 
-/* Ensures the header box is long enough to hold both pills */
 .header-dark {
     background-color: #333333; 
     padding: 50px 0; 
@@ -102,24 +106,23 @@
     gap: 20px;
 }
 
-/* Makes the Search Bar pill longer from side to side */
 .search-pill-title {
-    background-color: #FFFFFF; /* White pill */
+    background-color: #FFFFFF; 
     color: #888888;
     padding: 15px 0;
-    width: 92%;                /* Increased width for side-to-side look */
-    max-width: 800px;          /* Higher limit for wider screens */
+    width: 92%;                
+    max-width: 800px;          
     border-radius: 50px;
     text-align: center;
     font-size: 24px;
     cursor: default;
 }
 
-/* White box pill containing logo and links */
+
 .mcast-logo-pill {
     background-color: #FFFFFF; 
     padding: 20px;
-    width: 92%;                /* Matching width of the search pill */
+    width: 92%;                
     max-width: 800px;
     border-radius: 50px;
     display: flex;
@@ -127,37 +130,127 @@
     align-items: center;
 }
 
-/* --- PAGE 3 LOGO BOX REFINEMENT --- */
-
-/* Ensures the dark header contains both elements correctly */
 .header-dark {
-    background-color: #333333; /* Dark grey header */
+    background-color: #333333; 
     padding: 40px 0; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Space between search and logo box */
+    gap: 20px; 
 }
 
-/* Updates the white box underneath the search bar */
+
 .mcast-logo-pill {
-    background-color: #FFFFFF; /* Pure white background */
+    background-color: #FFFFFF; 
     padding: 20px;
-    width: 95%;                /* Makes it longer side-to-side */
-    max-width: 900px;          /* Prevents it from getting too wide on large screens */
-    border-radius: 60px;       /* Keeps the pill-shaped roundness */
+    width: 95%;                
+    max-width: 900px;          
+    border-radius: 60px;       
     display: flex;
-    justify-content: space-around; /* Spreads out MCAST logo and links */
+    justify-content: space-around; 
     align-items: center;
-    box-sizing: border-box;    /* Ensures padding doesn't break the width */
+    box-sizing: border-box;    
 }
 
-/* Ensures the logo and text inside are centered */
+
 .mcast-logo-pill img {
-    height: 45px; /* Adjust height to match the image scale */
+    height: 45px; 
 }
 
 .mcast-logo-pill .links-container {
     display: flex;
-    gap: 30px; /* Spacing between 'Staff Intranet' and 'Online System' */
+    gap: 30px; 
 }
+
+.header-dark {
+    background-color: #333333; 
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.search-pill-title {
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 100%;                
+    max-width: 900px;          
+    border-radius: 60px;       
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    box-sizing: border-box;    
+    height: 35px;
+    font-size: 20px;
+    
+}
+
+.search-container {
+
+    padding: 10px;
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-capsule  {
+    height: 35px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mcast-logo-pill img {
+    height: 45px; 
+}
+
+.mcast-logo-pill .links-container {
+    display: flex;
+    gap: 30px; 
+}
+
+.text-box {
+    background-color: var(--mcast-navy);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.info {
+    margin: 25px;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.hero-blue-box {
+    background-color: var(--mcast-navy);
+    position: fixed;   
+    padding-top: 40px; 
+    margin-top: 10px;
+    clear: both;
+    display: block;
+    top: auto;
+    left: auto;
+    right: auto;
+
+    margin-top: 580px;
+    width: 400px;
+}
+
